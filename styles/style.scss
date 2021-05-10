@@ -1,0 +1,94 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+
+    form {
+
+        .btn {
+            margin-left: 35px;
+            font-size: 1em;
+            font-family: cursive;
+            -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+            box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+
+    }
+
+    h1 {
+        text-align: center;
+        font-family: cursive;
+    }
+
+    .false {
+        width: 24%;
+        height: 300px;
+        background-color: rgb(243, 131, 131);
+        border: 1px solid;
+        overflow-y: auto;
+        height: 300px;
+        list-style: none;
+        border-radius: 10px;
+
+        li {
+            list-style: none;
+            background-color: rgb(93, 126, 126);
+            list-style: none;
+            margin-top: 5px;
+            width: 80%;
+            border-radius: 5px;
+            font-family: cursive;
+            color: burlywood;
+        }
+
+        .clicked_Li {
+            opacity: 0.1;
+        }
+        
+    }
+
+    .true {
+        width: 24%;
+        height: 300px;
+        background-color: rgb(94, 255, 0);
+        border: 1px solid;
+        overflow-y: auto;
+        height: 300px;
+        border-radius: 10px;
+
+        li {
+            list-style: none;
+            background-color: rgb(93, 126, 126);
+            list-style: none;
+            margin-top: 5px;
+            width: 80%;
+            border-radius: 5px;
+            font-family: cursive;
+            color: burlywood;
+
+            .clicked_Li {
+                opacity: 0.1;
+            }
+        }
+
+    }
+
+    .wrapper{
+        width: 25%;
+        overflow-y: auto;
+        height: 300px;
+
+
+        .titleList {
+            background-color: rgb(93, 126, 126);
+            list-style: none;
+            margin-top: 5px;
+            width: 100%;
+            border-radius: 5px;
+            font-family: cursive;
+            color: burlywood;
+        }
+    }
+}
+
+
+
